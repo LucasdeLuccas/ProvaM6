@@ -14,13 +14,13 @@ python main.py
 
 ## Estrutura de pastas
 ```
+main.py
 src
-|__ main.py
+|__ __venv__
+BancoDados
 |__ requirements.txt
-|__ templates
+templates
     |__ index.html
     |__ logs.html
-|__ __venv__
-|__ BancoDados
 |__ .gitignore
 ```
