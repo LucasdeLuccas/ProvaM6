@@ -1,0 +1,1 @@
+{"_default": {"1": {"action": "ping"}, "2": {"action": "echo", "text": "echo!!!!!"}, "3": {"action": "ping"}, "4": {"action": "ping"}, "5": {"action": "echo", "text": ""}, "6": {"action": "ping"}, "7": {"action": "echo", "text": ""}}}

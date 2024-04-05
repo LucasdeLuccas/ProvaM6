@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>Logs</h1>
+    <div id="logs" hx-get="/dash" hx-trigger="every 1s">
+        {% for log in logs %}
+        <div>
+            <p>Comando: {{ log.command }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

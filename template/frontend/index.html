@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prova Modulo 5 - Lucas de Luccas</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>Ping</h1>
+    <form hx-get="/ping" method="post" name="item">
+        <button type="submit">Ping</button>
+    </form>
+    <h2>Echo</h2>
+    <form method="post" hx-post="/echo">
+        <input type="text" name="textUser" placeholder="echo">
+        <button type="submit">Echo</button>
+    </form>
+    <H1>LOGS</H1>
+    <a href="/info">Verificar log</a>
+</body>
+</html>
+
+
